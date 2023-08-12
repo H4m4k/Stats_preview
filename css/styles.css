@@ -138,7 +138,7 @@ p {
 		max-height: 70%;
 		height: 60%;
 		flex-direction: row-reverse;
-		min-width: 1440px;
+		min-width: 940px;
 	}
 
 	.img_container {
