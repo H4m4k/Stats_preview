@@ -1,0 +1,46 @@
+:root {
+	/* primary colors */
+	--pr_main_bg: hsl(233, 47%, 7%);
+	--pr_card_bg: hsl(244, 38%, 16%);
+	--pr_accent: hsl(277, 64%, 61%);
+
+	/* secondary colors */
+	--snd_heading: hsl(0, 0%, 100%);
+	--snd_paragraph: hsla(0, 0%, 100%, 0.75);
+	--snd_heading: hsla(0, 0%, 100%, 0.6);
+
+	/* fonts */
+	--ff_Inter: "Inter", sans-serif;
+	--ff_Lexend: "Lexend Deca", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+body {
+	font-size: 15px;
+	font-family: var(--ff_Lexend);
+	max-width: 375px;
+}
+
+.accent {
+	color: var(--pr_accent);
+}
+
+/* Atribution */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
